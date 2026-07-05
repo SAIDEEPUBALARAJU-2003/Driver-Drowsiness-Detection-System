@@ -25,3 +25,7 @@ dataset/
 # System Files
 .DS_Store
 Thumbs.db
+
+# Ignore dataset
+images/
+labels/
