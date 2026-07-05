@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+venv/
+env/
+
+# YOLO Training Results
+runs/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset (optional if too large)
+dataset/
+
+# Model Weights
+*.pt
+
+# System Files
+.DS_Store
+Thumbs.db

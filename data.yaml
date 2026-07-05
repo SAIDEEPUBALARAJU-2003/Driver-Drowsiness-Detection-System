@@ -1,0 +1,10 @@
+path: C:/Users/Saideepu Balaraju/Desktop/DriverDrowsinessDataset
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: Eyes Opened
+  1: Eyes Closed
+  2: Yawning
