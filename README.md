@@ -33,17 +33,20 @@ The **Driver Drowsiness Detection System** is a real-time computer vision applic
 ```
 Driver-Drowsiness-Detection-System/
 │
-├── confidence.py
-├── confidence_log.txt
-├── data.yaml
-├── requirements.txt
-├── resume_train.py
-├── test.py
-├── train.py
-├── webcam.py
-├── webcam_confidence.py
-├── .gitignore
-└── README.md
+├── README.md                 # Project documentation
+├── requirements.txt          # Required Python libraries
+├── data.yaml                 # Dataset configuration
+├── .gitignore                # Git ignore rules
+│
+├── train.py                  # Train the YOLO model
+├── resume_train.py           # Resume training from checkpoint
+├── test.py                   # Test the trained model
+│
+├── webcam.py                 # Real-time detection using webcam
+├── webcam_confidence.py      # Webcam detection with confidence scores
+├── confidence.py             # Confidence threshold evaluation
+│
+└── confidence_log.txt 
 ```
 
 ---
